@@ -27,3 +27,6 @@ You can also lint your code with:
 ```sh
 npm run lint
 ```
+<img src="https://raw.githubusercontent.com/rajzone/categorizer/master/Home.png" />
+
+
