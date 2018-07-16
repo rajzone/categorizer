@@ -1,0 +1,16 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Cairo:900');
+
+.custFont {
+  font-family: 'Anton', sans-serif;
+  color: rgba(0, 188, 212, 0.7);
+  font-size: 1.85em;
+}
