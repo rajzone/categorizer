@@ -4,6 +4,8 @@ const buildPath = path.resolve(__dirname, 'build');
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 const TransferWebpackPlugin = require('transfer-webpack-plugin');
 
+const  port = process.env.PORT || 3000;
+
 const config = {
   //Entry points to the project
   entry: [
@@ -22,7 +24,7 @@ const config = {
     devtool: 'eval',
     hot: true,        //Live-reload
     inline: true,
-    port: 3000,        //Port Number
+    port: port,        //Port Number
     host: 'localhost',  //Change to '0.0.0.0' for external facing server
   },
   devtool: 'eval',
