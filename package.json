@@ -7,7 +7,7 @@
     "url": "https://github.com/rajzone/categorizer.git"
   },
   "scripts": {
-    "start": "webpack-production --config webpack-production.config.js --progress --inline --colors",
+    "start": "webpack --config webpack-production.config.js --progress --inline --colors",
     "build": "webpack --config webpack-production.config.js --progress --colors",
     "lint": "eslint src && echo \"eslint: no lint errors\""
   },
